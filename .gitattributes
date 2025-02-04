@@ -1,0 +1,12 @@
+# Treat HTML, CSS, JS files as text
+*.html text
+*.css text
+*.js text
+
+# Ensure proper handling of binary files like GIFs and images
+*.gif binary
+*.png binary
+*.jpg binary
+
+# Ensure consistent line endings (LF for Unix-style systems)
+* text=auto
